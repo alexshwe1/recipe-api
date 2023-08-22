@@ -3,6 +3,9 @@
         "_id": {
             "bsonType": "objectId"
         },
+        "category": {
+            "bsonType": "string"
+        },
         "description": {
             "bsonType": "string"
         },
@@ -22,8 +25,5 @@
             "bsonType": "string"
         }
     },
-    "required": [
-        "_id"
-    ],
     "title": "recipe"
 }
